@@ -4,7 +4,7 @@ import SearchIcon from './search.svg';
 import MovieCard from "./MovieCard";
 
 //4026541b
-const API_URL="http://www.omdbapi.com?apikey=4026541b";
+const API_URL="https://www.omdbapi.com?apikey=4026541b";
 
 
 
