@@ -6,13 +6,7 @@ import MovieCard from "./MovieCard";
 //4026541b
 const API_URL="http://www.omdbapi.com?apikey=4026541b";
 
-const movie1={
-    "Title": "Spiderman and Grandma",
-    "Year": "2009",
-    "imdbID": "tt1433184",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMjE3Mzg0MjAxMl5BMl5BanBnXkFtZTcwNjIyODg5Mg@@._V1_SX300.jpg"
-}
+
 
 const App = () => {
     const [movies,setMovies]=useState([]);
@@ -49,7 +43,7 @@ const App = () => {
             </div>
                 ) :
                 (
-                    <div className="empty"><h2>No movies found</h2></div>
+                    <div className="empty"><h2>No movies founded</h2></div>
                 )
             }
             
